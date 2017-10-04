@@ -1,0 +1,170 @@
+body {
+  font-family: Helvetica;
+  margin: 30px;
+  background: url("http://lib.store.yahoo.net/lib/oberers-flowers/black-paisley-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-color: tan;*/
+  /*background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color: #D2656F;
+  height: 100%;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.main-header {
+  background-color: #222;
+  color: #fff;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.main-header h1 {
+  line-height: 1;
+  margin: 0;
+  font-weight: 400;
+}
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 0.5rem;
+  color: white;
+}
+
+.search-page {
+  text-align: center;
+  color: white;
+}
+
+.search-page__input {
+  border: 1px solid black;
+  padding: 0.2em;
+  margin-right: 1em;
+  font-size: 20px;
+}
+.search-page__button {
+  border: 1px solid black;
+  background-color: #fff;
+  font-size: 20px;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+  margin-bottom: 1em;
+  color: white;
+}
+
+.user-info__avatar {
+  border-radius: 25%;
+  width: 70px;
+  height: 70px;
+  margin-right: 1em;
+  float: left;
+}
+
+.user-info__text {
+  text-decoration: none;
+  flex: 1;
+  color: white;
+}
+
+.user-info__title {
+  font-size: 20px;
+  color: white;
+}
+
+.user-info__title,
+.user-info__bio {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+}
+
+.user-info__stats {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  color: white;
+}
+
+.user-info__stats a {
+  color: white;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.user-info__stat {
+  flex: 1;
+  color: white;
+}
+
+.user-info__stat p {
+  margin: 0;
+  white-space: nowrap;
+  color: white;
+}
+
+.github-usertag {
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+
+.github-usertag__avatar {
+  border-radius: 25%;
+  width: 70px;
+  height: 70px;
+  margin-right: 0.5em;
+
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 7px;
+}
+
+.followers-list {
+  list-style: none;
+  color: white;
+}
+
+.followers-list li {
+  margin-bottom: 1em;
+  color: white;
+}
+
+.github-repotag {
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+.github-repotag__stars {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px 4px;
+  line-height: 1;
+  border: 1px solid black;
+  font-size: 0.9em;
+  color: white;
+}
