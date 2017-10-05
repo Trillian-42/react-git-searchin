@@ -10,9 +10,10 @@ class App extends Component {
         return (
             <div className="main-app">
                 <header className="main-header">
-                    <h1>
-                        <Link to="/">React Git Searchin'</Link>
-                    </h1>
+                    <h1>React Git Searchin'</h1>
+                    <button className="reset_button">
+                        <Link to="/">(return to search)</Link>
+                        </button>
                 </header>
                 <main className="main-content">
                     {this.props.children}

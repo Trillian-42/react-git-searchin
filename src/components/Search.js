@@ -20,6 +20,7 @@ class Search extends React.Component {   //same as saying const Search = new Rea
         return (
             <div className="search-page">
                 <h2>Enter a Github Username</h2>
+                <h4>(for example: Trillian-42 or Getify)</h4>
                 <form onSubmit={this.handleSubmit}>
                     <input ref="userInput" className="search-page__input" type="text" />
                     <button className="search-page__button">Search</button>
